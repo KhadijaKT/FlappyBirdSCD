@@ -27,3 +27,20 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### General Rules ###
+# Ignore log files
+*.log
+
+# Ignore compiled Java class files
+*.class
+
+# Ignore build directories
+/build/
+/target/
+
+# Ignore IDE-specific settings directories
+.idea/
+
+# Don't ignore source code directories
+!src/
